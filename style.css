@@ -152,5 +152,11 @@ input[type="submit"]:active {
         margin: auto;
       flex-direction: column-reverse;
     }
+.right, .left{
+    height: 65vh;
+}
 
+.left h3{
+    margin-top: 130px;
+}
 }
