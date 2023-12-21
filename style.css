@@ -6,31 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* .submit{
-    font-size: 16px;
-    background-color: rgba(0, 0, 255, 0.377) !important;
-    color: #fff !important;
-    border: none !important;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    width: 300px;
-    transition: background-color 1s ease-in-out !important;
-    padding: 12px 22px 12px 22px !important;
-  }
-  
-  .submit{
-    background-color:#170b3bc9 !important;
-  } */
-
-
-main{
-    /* background-image: url('bg1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-    height: 100vh;
-}
-
 .main-div{
     display: flex;
     justify-content: center;
@@ -70,13 +45,6 @@ main{
     font-weight: 800;
     color: #fff;
 }
-
-/* form label{
-    font-size: 14px;
-    padding-top: 10px;
-    font-family: 'Poppins', sans-serif;
-} */
-
 
 form input{
     height: 40px;
@@ -148,15 +116,22 @@ input[type="submit"]:active {
 @media (max-width: 991px){
     
     .main-div{
-        width: 70%;
+        width: 100%;
         margin: auto;
       flex-direction: column-reverse;
     }
 .right, .left{
     height: 65vh;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .left h3{
     margin-top: 130px;
+}
+
+.form-container{
+    width: 80%;
+    margin: auto;
 }
 }
