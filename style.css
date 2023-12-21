@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .submit{
+    font-size: 16px;
+    background-color: rgba(0, 0, 255, 0.377) !important;
+    color: #fff !important;
+    border: none !important;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    transition: background-color 1s ease-in-out !important;
+    padding: 12px 22px 12px 22px !important;
+  }
+  
+  .submit{
+    background-color:#170b3bc9 !important;
+  } */
+
+
+main{
+    /* background-image: url('bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    height: 100vh;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right{
+    height: 80vh;
+    width: 500px;
+    margin-top: 50px;
+    background-color:#fff; 
+    border-radius: 15px 0px 0 15px;
+}
+
+.left{
+    height: 80vh;
+    width: 500px;
+    margin-top: 50px;
+    background: linear-gradient(rgba(0, 0, 255, 0.377), rgba(0, 0, 255, 0.233)), url('lite-drive.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 0px 15px 15px 0px;
+    text-align: center;
+}
+
+.left h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.left h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+
+/* form label{
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+} */
+
+
+form input{
+    height: 40px;
+    width: 300px;
+    border: 0;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: rgba(0, 0, 255, 0.377) !important;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color:#170b3bc9 !important;
+}
+
+input[type="submit"]:active {
+    background-color:#170b3bc9 !important;
+}
+
+.form-container{
+    width: 60%;
+    margin: auto;
+}
+
+.form-container p{
+    padding-left: 8px;
+    margin: 0;
+}
+
+.error {
+    color: red;
+    margin-top: -8px;
+    margin-bottom: 16px;
+}
+
+.password-container {
+    position: relative;
+    border-radius: 6px;
+}
+
+#password {
+    /* width: calc(100% - 32px);
+    padding-right: 32px; */
+    border-radius: 6px !important;
+}
+
+#togglePassword {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
